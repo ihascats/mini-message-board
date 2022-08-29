@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 50px;
+  font: 14px 'Lucida Grande', Helvetica, Arial, sans-serif;
+  background-color: #a5ff94;
+}
+
+.formPage {
+  display: grid;
+  justify-items: center;
+}
+
+ul {
+  display: grid;
+  gap: 16px;
+}
+
+.message {
+  background-color: rgba(0, 0, 0, 0.3);
+  display: grid;
+  padding: 16px;
+  gap: 8px;
+}
+
+a > button,
+form > button {
+  padding: 16px 32px;
+  border: none;
+  background-color: rgba(0, 0, 0, 0.2);
+  font-size: 16px;
+}
+
+a > button:hover,
+form > button:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+form {
+  display: grid;
+  width: 300px;
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 16px;
+  gap: 8px;
+}
+
+form > label {
+  letter-spacing: 2px;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+form > input,
+form > textarea {
+  border: none;
+  padding: 4px 8px;
+  font-size: 16px;
+}
